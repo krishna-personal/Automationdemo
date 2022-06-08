@@ -1,0 +1,248 @@
+{
+  "id": "4ea755c8-425b-413d-94d0-a8aea72e0020",
+  "version": "2.0",
+  "name": "Test PRoject",
+  "url": "https://parabank.parasoft.com/parabank/register.htm",
+  "tests": [{
+    "id": "47599fbb-1e9e-47cf-b5d3-31bfdc7417bf",
+    "name": "T1",
+    "commands": [{
+      "id": "26a7d6f3-88e1-48c0-b3fd-abc656c442e7",
+      "comment": "",
+      "command": "open",
+      "target": "https://parabank.parasoft.com/parabank/register.htm",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40c603a2-f596-414a-ab73-bf71b0560668",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1064x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39e61c7b-1524-4d0c-b291-5b4f545b3d9a",
+      "comment": "",
+      "command": "click",
+      "target": "id=customer.firstName",
+      "targets": [
+        ["id=customer.firstName", "id"],
+        ["name=customer.firstName", "name"],
+        ["css=#customer\\.firstName", "css:finder"],
+        ["xpath=//input[@id='customer.firstName']", "xpath:attributes"],
+        ["xpath=//form[@id='customerForm']/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c1cd3b0-4cff-41ec-ab73-564a9f93c53b",
+      "comment": "",
+      "command": "type",
+      "target": "id=customer.firstName",
+      "targets": [
+        ["id=customer.firstName", "id"],
+        ["name=customer.firstName", "name"],
+        ["css=#customer\\.firstName", "css:finder"],
+        ["xpath=//input[@id='customer.firstName']", "xpath:attributes"],
+        ["xpath=//form[@id='customerForm']/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "Krishna"
+    }, {
+      "id": "63de48e4-96cd-47ad-9118-bc5213951c60",
+      "comment": "",
+      "command": "type",
+      "target": "id=customer.lastName",
+      "targets": [
+        ["id=customer.lastName", "id"],
+        ["name=customer.lastName", "name"],
+        ["css=#customer\\.lastName", "css:finder"],
+        ["xpath=//input[@id='customer.lastName']", "xpath:attributes"],
+        ["xpath=//form[@id='customerForm']/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "Hoderker"
+    }, {
+      "id": "7fcc049a-ef0c-4e62-9c09-541de7496bee",
+      "comment": "",
+      "command": "type",
+      "target": "id=customer.address.street",
+      "targets": [
+        ["id=customer.address.street", "id"],
+        ["name=customer.address.street", "name"],
+        ["css=#customer\\.address\\.street", "css:finder"],
+        ["xpath=//input[@id='customer.address.street']", "xpath:attributes"],
+        ["xpath=//form[@id='customerForm']/table/tbody/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "Curchorem"
+    }, {
+      "id": "1fb2fc48-a0e7-4245-8d9d-d62335647629",
+      "comment": "",
+      "command": "type",
+      "target": "id=customer.address.city",
+      "targets": [
+        ["id=customer.address.city", "id"],
+        ["name=customer.address.city", "name"],
+        ["css=#customer\\.address\\.city", "css:finder"],
+        ["xpath=//input[@id='customer.address.city']", "xpath:attributes"],
+        ["xpath=//form[@id='customerForm']/table/tbody/tr[4]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[2]/input", "xpath:position"]
+      ],
+      "value": "Curchorem"
+    }, {
+      "id": "a35961db-b34b-4b89-8fd2-207fb555e9d6",
+      "comment": "",
+      "command": "type",
+      "target": "id=customer.address.state",
+      "targets": [
+        ["id=customer.address.state", "id"],
+        ["name=customer.address.state", "name"],
+        ["css=#customer\\.address\\.state", "css:finder"],
+        ["xpath=//input[@id='customer.address.state']", "xpath:attributes"],
+        ["xpath=//form[@id='customerForm']/table/tbody/tr[5]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[2]/input", "xpath:position"]
+      ],
+      "value": "Goa"
+    }, {
+      "id": "d91b2b91-f0dd-4c2c-8e20-e3642193cbe3",
+      "comment": "",
+      "command": "type",
+      "target": "id=customer.address.zipCode",
+      "targets": [
+        ["id=customer.address.zipCode", "id"],
+        ["name=customer.address.zipCode", "name"],
+        ["css=#customer\\.address\\.zipCode", "css:finder"],
+        ["xpath=//input[@id='customer.address.zipCode']", "xpath:attributes"],
+        ["xpath=//form[@id='customerForm']/table/tbody/tr[6]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[6]/td[2]/input", "xpath:position"]
+      ],
+      "value": "403705"
+    }, {
+      "id": "00a63596-1f58-4e3c-834f-5496e0e9700c",
+      "comment": "",
+      "command": "type",
+      "target": "id=customer.phoneNumber",
+      "targets": [
+        ["id=customer.phoneNumber", "id"],
+        ["name=customer.phoneNumber", "name"],
+        ["css=#customer\\.phoneNumber", "css:finder"],
+        ["xpath=//input[@id='customer.phoneNumber']", "xpath:attributes"],
+        ["xpath=//form[@id='customerForm']/table/tbody/tr[7]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": "8888888888"
+    }, {
+      "id": "6a2fccf1-b5db-434e-8c5e-e9d98f24ae82",
+      "comment": "",
+      "command": "type",
+      "target": "id=customer.ssn",
+      "targets": [
+        ["id=customer.ssn", "id"],
+        ["name=customer.ssn", "name"],
+        ["css=#customer\\.ssn", "css:finder"],
+        ["xpath=//input[@id='customer.ssn']", "xpath:attributes"],
+        ["xpath=//form[@id='customerForm']/table/tbody/tr[8]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": "7878-8585-85555"
+    }, {
+      "id": "81481ebe-d389-4ca5-ac08-f168de9f9e01",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return Math.random().toString(36).substring(2,7)",
+      "targets": [],
+      "value": "randomNumber"
+    }, {
+      "id": "b9b19fc3-4fa8-46ca-9076-85db77284485",
+      "comment": "",
+      "command": "type",
+      "target": "id=customer.username",
+      "targets": [
+        ["id=customer.username", "id"],
+        ["name=customer.username", "name"],
+        ["css=#customer\\.username", "css:finder"],
+        ["xpath=//input[@id='customer.username']", "xpath:attributes"],
+        ["xpath=//form[@id='customerForm']/table/tbody/tr[10]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[10]/td[2]/input", "xpath:position"]
+      ],
+      "value": "krishna${randomNumber}"
+    }, {
+      "id": "fe48ddee-a7c6-450e-8dca-8fdb014065d4",
+      "comment": "",
+      "command": "type",
+      "target": "id=customer.password",
+      "targets": [
+        ["id=customer.password", "id"],
+        ["name=customer.password", "name"],
+        ["css=#customer\\.password", "css:finder"],
+        ["xpath=//input[@id='customer.password']", "xpath:attributes"],
+        ["xpath=//form[@id='customerForm']/table/tbody/tr[11]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[11]/td[2]/input", "xpath:position"]
+      ],
+      "value": "k1"
+    }, {
+      "id": "071b827c-86b2-455c-9136-2a5c4282c7e1",
+      "comment": "",
+      "command": "type",
+      "target": "id=repeatedPassword",
+      "targets": [
+        ["id=repeatedPassword", "id"],
+        ["name=repeatedPassword", "name"],
+        ["css=#repeatedPassword", "css:finder"],
+        ["xpath=//input[@id='repeatedPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='customerForm']/table/tbody/tr[12]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[12]/td[2]/input", "xpath:position"]
+      ],
+      "value": "k1"
+    }, {
+      "id": "ff853fb0-72a5-49fe-a191-3dd295ab2fe2",
+      "comment": "",
+      "command": "click",
+      "target": "css=td > .button",
+      "targets": [
+        ["css=td > .button", "css:finder"],
+        ["xpath=//input[@value='Register']", "xpath:attributes"],
+        ["xpath=//form[@id='customerForm']/table/tbody/tr[13]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[13]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4fe993a-ec7d-42d1-a0bc-c54482d730f4",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//p[contains(.,'Welcome Krishna Hoderker1')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1cb6ab3a-e3f9-4487-9437-cb874060ab74",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//p[contains(.,'1Your account was created successfully. You are now logged in.')]",
+      "targets": [
+        ["css=#rightPanel > p", "css:finder"],
+        ["xpath=//div[@id='rightPanel']/p", "xpath:idRelative"],
+        ["xpath=//div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Your account was created successfully. You are now logged in.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e68f68d-1612-43ce-84c0-2661db20505b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Open New Account",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ee8be231-c458-4516-80ac-fb7a22f93287",
+    "name": "S1",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["47599fbb-1e9e-47cf-b5d3-31bfdc7417bf"]
+  }],
+  "urls": ["https://www.google.com/", "https://parabank.parasoft.com/parabank/register.htm"],
+  "plugins": []
+}
